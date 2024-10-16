@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - Cleanox</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <!-- header -->
+
+    <section class="header text-white border-bottom">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+
+                <div class="col-1">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-7">
+                    <ul class="border-start navbar-nav text-uppercase">
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <!-- dropdown start-->
+                            <div class="dropdown">
+                                <a class="btn px-4 py-6 border-0" role="button">
+                                    Pages<i class="bi bi-chevron-down ms-2"></i>
+                                </a>
+                                <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                    <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                                    <li class="border-top border-bottom orange-border"><a class="dropdown-item"
+                                            href="price.html">Pricing plan</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                    <li class="border-top border-bottom orange-border"><a class="dropdown-item"
+                                            href="coming.html">Coming soon</a></li>
+                                    <li><a class="dropdown-item" href="error.html">404error</a></li>
+                                </ul>
+                            </div>
+                            <!-- dropdown end -->
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <!-- dropdown start-->
+                            <div class="dropdown two">
+                                <a class="btn px-4 py-6 border-0" role="button" href="blog.html">
+                                    Blog<i class="bi bi-chevron-down ms-2"></i>
+                                </a>
+                                <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                    <li class="border-bottom orange-border"><a class="dropdown-item"
+                                            href="left.html">left
+                                            side</a></li>
+                                    <li><a class="dropdown-item" href="right.html">right side</a></li>
+                                </ul>
+                            </div>
+                            <!-- dropdown end -->
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="contact.html" class="color">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-4 d-flex justify-content-end align-items-center text-black">
+                    <div class="part">
+                        <a><i class="fa-solid fa-phone-volume fs-5 p-1"></i></a>
+                        <span class="ms-2 me-5">+1800-234-67899</span>
+                    </div>
+                    <div class="main-btn">
+                        <a href="contact.html"
+                            class="btn rounded-0 text-uppercase d-flex align-items-center justify-content-center">Get A
+                            Quote</a>
+                    </div>
+                </div>
+
+                <button class="sticky btn modal-btn border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-list fs-4"></i>
+                </button>
+
+            </div>
+        </nav>
+
+        <!-- offcanvas -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a class="nav-link active me-5" aria-current="page" href="index.html">Home</a>
+                <!-- dropdown start-->
+                <div class="dropdown">
+                    <span>Pages</span>
+                    <a class="btn border-0 p-0 my-4" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-chevron-down ms-5 text-black"></i>
+                    </a>
+                    <ul class="dropdown-menu border-0 py-0" style="transform: translate(-37rem, 52px) !important;">
+                        <li><a class="dropdown-item py-3" href="team.html">Our Team</a></li>
+                        <li><a class="dropdown-item py-3" href="price.html">Pricing plan</a></li>
+                        <li><a class="dropdown-item py-3" href="faq.html">Faq</a></li>
+                        <li><a class="dropdown-item py-3" href="coming.html">Coming Soon</a></li>
+                        <li><a class="dropdown-item py-3" href="error.html">404Error</a></li>
+                    </ul>
+                </div>
+                <!-- dropdown end -->
+                <a class="nav-link active me-5" aria-current="page" href="about.html">About</a>
+                <!-- dropdown start-->
+                <div class="dropdown">
+                    <span>Blog</span>
+                    <a class="btn border-0 p-0 my-4" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-chevron-down ms-5 text-black"></i>
+                    </a>
+                    <ul class="dropdown-menu border-0 py-0" style="transform: translate(-37rem, 52px) !important;">
+                        <li><a class="dropdown-item py-3" href="left.html">left
+                                side</a></li>
+                        <li><a class="dropdown-item py-3" href="right.html">right side</a></li>
+                    </ul>
+                </div>
+                <!-- dropdown end -->
+                <a class="nav-link active me-5 color" aria-current="page" href="contact.html">Contact</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- top -->
+
+    <section class="top top-img wow fadeIn" data-wow-duration="1s">
+        <div class="top-text">
+            <div class="text-inner">
+                <h2 class="text-white my-2">Contact</h2>
+                <div class="d-flex text-white justify-content-center py-2">
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <p class="m-0 py-1"><span class="mx-1">/</span>Contact</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-page -->
+
+    <section class="contact all-margin">
+        <div class="container">
+            <p class="color">Get In Touch</p>
+            <h2 class="my-4">We Love to Hear <br>
+                From You</h2>
+            <div class="row">
+
+                <div class="col-6 contact-main wow fadeInLeft me-6" data-wow-duration="1s">
+                    <div class="success-message" id="successMessage" style="display:none;">
+                        <div class="border border-1 gray-border rounded-2 p-5 text-center mb-3">
+                            <i class="fa-solid fa-check fs-1 d-block pb-3"></i>Thank you! Form submitted successfully.
+                        </div>
+                    </div>
+
+                    <form id="myForm">
+                        <div>
+                            <input type="text" id="name" name="name" placeholder="Name" class="w-100">
+                            <div class="error-message" id="nameError">This field is required.</div>
+                        </div>
+
+                        <div class="my-4">
+                            <input type="email" id="email" name="email" placeholder="Email" class="w-100">
+                            <div class="error-message" id="emailError">This field is required.</div>
+                        </div>
+
+                        <div>
+                            <input type="number" id="phone" name="phone" placeholder="Phone Number" class="w-100">
+                            <div class="error-message" id="phoneError">This field is required.</div>
+                        </div>
+
+                        <div class="my-4">
+                            <textarea id="message" name="message" placeholder="Message" class="w-100"></textarea>
+                            <div class="error-message" id="messageError">This field is required.</div>
+                        </div>
+
+                        <div class="main-btn">
+                            <button type="submit" value="Submit" class="btn rounded-0 text-uppercase border-0">Submit
+                                Now</button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="col-6 contact-main wow fadeInRight ms-6 rmt" data-wow-duration="1s">
+                    <h2>Our Address</h2>
+                    <p class="my-4">Completely synergize resource taxing relationships via premier niche markets.
+                        Professionally
+                        cultivateone-to-one customer service.</p>
+                    <div class="row">
+                        <div class="col-1 d-grid align-items-center">
+                            <i class="fa-solid fa-location-dot color fs-2"></i>
+                        </div>
+                        <div class="col-11 rmt">
+                            <h3>Address : </h3>
+                            <p>54B, Tailstoi Town 5238 MT, La city, IA 5224 </p>
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="col-1 d-grid align-items-center">
+                            <i class="fa-solid fa-phone color fs-2"></i>
+                        </div>
+                        <div class="col-11 rmt">
+                            <h3>Phone : </h3>
+                            <p>1800-456-7890 / 1254-897-3654 </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 d-grid align-items-center">
+                            <i class="fa-solid fa-envelope color fs-2"></i>
+                        </div>
+                        <div class="col-11 rmt">
+                            <h3>Email : </h3>
+                            <p>info@example.com </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- map -->
+
+    <section class="map wow fadeIn">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5464675033145!2d-0.12209412303556542!3d51.503189711010464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sin!4v1724924302028!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row info">
+
+                <div class="col-3 hide-footer">
+                    <h3 class="text-white mb-7">About</h3>
+                    <ul class="p-0 m-0">
+                        <li class="list-group-item"><a href="about.html" class="text-decoration-none">About</a>
+                        </li>
+                        <li class="list-group-item my-6"><a href="team.html" class="text-decoration-none">Team</a>
+                        </li>
+                        <li class="list-group-item"><a href="faq.html" class="text-decoration-none">FAQ</a>
+                        </li>
+                        <li class="list-group-item my-6"><a href="contact.html" class="text-decoration-none">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- accordion1 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterOne" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterOne">
+                                    About
+                                </button>
+                            </h3>
+                            <div id="panelsStayOpen-collapseFooterOne" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <ul class="p-0 m-0">
+                                        <li class="list-group-item"><a href="about.html"
+                                                class="text-decoration-none">About</a>
+                                        </li>
+                                        <li class="list-group-item my-6"><a href="team.html"
+                                                class="text-decoration-none">Team</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="faq.html"
+                                                class="text-decoration-none">FAQ</a>
+                                        </li>
+                                        <li class="list-group-item my-6"><a href="contact.html"
+                                                class="text-decoration-none">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 social main-col hide-footer">
+                    <h3 class="text-white mb-7">Services</h3>
+                    <ul class="p-0 m-0">
+                        <li class="list-group-item"><a href="index.html" class="text-decoration-none">Residential
+                                Cleaning</a>
+                        </li>
+                        <li class="list-group-item my-6"><a href="index.html" class="text-decoration-none">Move Out
+                                Cleaning</a>
+                        </li>
+                        <li class="list-group-item"><a href="index.html" class="text-decoration-none">Extra Services</a>
+                        </li>
+                        <li class="list-group-item my-6"><a href="index.html" class="text-decoration-none">Deep
+                                Cleaning</a>
+                        </li>
+                        <li class="list-group-item mb-6"><a href="index.html" class="text-decoration-none">Short-Term
+                                Rentals</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- accordion2 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterTwo">
+                                    Services
+                                </button>
+                            </h3>
+                            <div id="panelsStayOpen-collapseFooterTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <ul class="p-0 m-0">
+                                        <li class="list-group-item"><a href="index.html"
+                                                class="text-decoration-none">Residential
+                                                Cleaning</a>
+                                        </li>
+                                        <li class="list-group-item my-6"><a href="index.html"
+                                                class="text-decoration-none">Move Out
+                                                Cleaning</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="index.html"
+                                                class="text-decoration-none">Extra Services</a>
+                                        </li>
+                                        <li class="list-group-item my-6"><a href="index.html"
+                                                class="text-decoration-none">Deep
+                                                Cleaning</a>
+                                        </li>
+                                        <li class="list-group-item mb-6"><a href="index.html"
+                                                class="text-decoration-none">Short-Term
+                                                Rentals</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 hide-footer">
+                    <h3 class="text-white mb-7">Help</h3>
+                    <ul class="p-0 m-0">
+                        <li class="list-group-item"><a href="faq.html"
+                                class="text-decoration-none text-capitalize">FAQ</a></li>
+                        <li class="list-group-item my-6"><a href="index.html" class="text-decoration-none">Service
+                                Calculator</a>
+                        </li>
+                        <li class="list-group-item"><a href="index.html" class="text-decoration-none">Get In Touch</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- accordion3 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterThree">
+                                    Help
+                                </button>
+                            </h3>
+                            <div id="panelsStayOpen-collapseFooterThree" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <ul class="p-0 m-0">
+                                        <li class="list-group-item"><a href="faq.html"
+                                                class="text-decoration-none text-capitalize">FAQ</a></li>
+                                        <li class="list-group-item my-6"><a href="index.html"
+                                                class="text-decoration-none">Service
+                                                Calculator</a>
+                                        </li>
+                                        <li class="list-group-item mb-6                   "><a href="index.html"
+                                                class="text-decoration-none">Get In Touch</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 form main-col hide-footer">
+                    <h3 class="text-white mb-7">Get App</h3>
+                    <div class="img">
+                        <img src="img/app.png" alt="">
+                    </div>
+                    <div class="img mt-2">
+                        <img src="img/play.png" alt="">
+                    </div>
+                </div>
+
+                <!-- accordion4 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h3 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterFour">
+                                    Get App
+                                </button>
+                            </h3>
+                            <div id="panelsStayOpen-collapseFooterFour" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <div class="img">
+                                        <img src="img/app.png" alt="">
+                                    </div>
+                                    <div class="img mt-2">
+                                        <img src="img/play.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <span class="border-top blue-border"></span>
+                <div class="col-12 d-flex justify-content-center text-white">
+                    <p>© 2024 - Html Theme by Code4rest</p>
+                </div>
+            </div>
+        </div>
+        <div class="fix-btn">
+            <a href="#" class="btn position-fixed rounded-0 border border-1 border-white">
+                <i class="bi bi-chevron-up text-white"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- all -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- animation -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#myForm').on('submit', function (event) {
+                event.preventDefault();
+
+                $('#name, #email, #phone, #message').removeClass('error-border');
+                $('#nameError, #emailError, #phoneError, #messageError').hide();
+                $('#successMessage').hide();
+
+                let name = $('#name').val().trim();
+                let email = $('#email').val().trim();
+                let phone = $('#phone').val().trim();
+                let message = $('#message').val().trim();
+                let isValid = true;
+
+                if (name === "") {
+                    $('#name').addClass('error-border');
+                    $('#nameError').show();
+                    isValid = false;
+                }
+
+                if (email === "") {
+                    $('#email').addClass('error-border');
+                    $('#emailError').show();
+                    isValid = false;
+                }
+
+                if (phone === "") {
+                    $('#phone').addClass('error-border');
+                    $('#phoneError').show();
+                    isValid = false;
+                }
+
+                if (message === "") {
+                    $('#message').addClass('error-border');
+                    $('#messageError').show();
+                    isValid = false;
+                }
+
+                if (isValid) {
+                    $('#successMessage').show();
+                }
+            });
+
+            $('#name, #email, #phone, #message').on('input', function () {
+                $(this).removeClass('error-border');
+                $(this).siblings('.error-message').hide();
+            });
+        });
+    </script>
+
+</body>
+
+</html>
